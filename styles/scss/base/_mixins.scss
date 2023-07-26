@@ -1,0 +1,27 @@
+
+@mixin separator($color: $color-text) {
+    &::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -18px;
+        transform: translateX(-50%);
+        width: 50px;
+        height: 1px;
+        background-color: $color;
+    }
+}
+
+@mixin hover-style($border-radius: 50%) {
+    &:hover {
+        background-color: $base-color;
+        border-radius: $border-radius;
+    }
+}
+
+@mixin hover-color {
+    &:hover {
+      color: $base-color;
+    }
+  }
+  

@@ -1,0 +1,26 @@
+.main-btn {
+    height: 40px;
+    padding: 0px 15px 0px 14px;
+    font-family: Hammersmith One;
+    font-size: 16px;
+    border-radius: 2px;
+    border: solid 1px $color-text;
+    background: none;
+    color: $color-text;
+    cursor: pointer;
+
+    &:hover {
+        color: $base-color;
+    }
+}
+
+.title {
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+}
+
+.img {
+    width: 100%;
+}
